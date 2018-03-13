@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">                
+		<link rel="shortcut icon" href="images/favicon.gif" type="image/gif"/>
+		<title>DHL | Global | English</title>
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/maincontroller.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+    </head>
+    <body data-spy="scroll" data-target=".navbarSecondary" data-offset="20">
+        <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand logo" href="../index.html" title="DHL"><img src="images/logo.png" alt="DHL Logo" /></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav"> 
+      <li><a href="../dashboard.html">Dashboard</a></li>      
+      <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >UX Forge<span class="caret"></span>
+              </a>
+               <ul class="dropdown-menu up-arrow singleRow">
+                <li><a href="javascript:void(0)" onclick="location.href = '../who_we_are.html'">Who We Are</a></li>        
+				<li><a href="javascript:void(0)" onclick="location.href = '../why_ux_forge.html'">Why UX Forge</a></li>
+              </ul>            
+            </li>     
+      <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Brand<span class="caret"></span></a>
+              <ul class="dropdown-menu up-arrow singleRow">
+                <li><a href="#">Logo Guidelines</a></li>        
+				<li><a href="#">Corporate Style Guide</a></li>
+				<li><a href="#">Typography</a></li>   
+				<li><a href="#">Brand Imagery</a></li>
+              </ul>
+            </li>
+      
+      <li class="dropdown">
+              <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">UX Artifacts <span class="caret"></span></a>
+              <ul class="dropdown-menu up-arrow singleRow">
+				<li><a href="javascript:void(0)" onclick="location.href = '../dhl_process.html';">DHL UX Process</a></li>
+				<li><a href="javascript:void(0)" onclick="location.href = '../design_principal.html';">Design Principle</a></li>        
+                <li><a href="javascript:void(0)" onclick="location.href = '../ux_method.html';">UX Methods</a></li>
+                <li><a href="javascript:void(0)" onclick="location.href = '../mobile_ux.html';">Mobile UX Guidelines</a></li>
+              </ul>             
+            </li>     
+      <li class="dropdown active">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">UX Library <span class="caret"></span></a>
+              <ul class="dropdown-menu up-arrow singleRow">
+                <li><a href="javascript:void(0)" onclick="location.href = 'ui_repository_home.html';">Components</a></li>
+                <li><a href="javascript:void(0)" onclick="location.href = 'icons.html';">Icons</a></li>       
+                <li><a href="javascript:void(0)" onclick="location.href = 'ui_repository_home.html?mn=submitComp&ct=submitComp';">Submit Component</a></li>
+              </ul>
+            </li>     
+      <li class="dropdown" ><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">UX Connect <span class="caret"></span></a>
+      <ul class="dropdown-menu up-arrow singleRow">       
+        <li><a href="javascript:void(0)" onclick="location.href = '../forum.html';">Forum</a></li>        
+                
+              </ul>
+      </li>       
+          </ul>
+          <div class="navbar-right">
+            <span class="fa fa-search searchIcon"></span>
+          </div>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+	
+	<!-- banner 
+	<div class="innerBanner banner1 uiBanner">
+		<div class="bannerTxt">
+			<p>Design for DHL</p>
+			<h1>UI Components</h1>
+		</div>
+	</div>-->
+	<!-- /banner -->
+	
+		<!---Search area-->
+			<div class="searchComponent">
+				<div class="container">		
+					<div class="row">
+					
+						<form>						
+						   <div class="col-md-8 middleElement">
+						<div class="contacts">               
+							<div class="form-group multiple-form-group input-group">
+								<div class="input-group-btn input-group-select">
+									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+										<span class="concept">All</span> <span class="caret"></span>
+									</button>
+										<ul class="dropdown-menu" role="menu">
+											<li><a href="#all">All</a></li>
+											<li><a href="#jquery">Jquery</a></li>
+											<li><a href="#angularJs">Angular Js</a></li>
+											<li><a href="#html5">Html5</a></li>
+											<li><a href="#css3">Css3</a></li>
+											<li><a href="#other">Others</a></li>											
+										</ul>
+									<input type="hidden" class="input-group-select-val" name="contacts['type'][]" value="phone">
+								</div>
+								<input type="text" name="contacts['value'][]" class="form-control inputxt">
+								<span class="input-group-btn">
+									<button type="button" class="btn btn-success fa fa-search searchBtn" onclick="location.href = 'search.html'"></button>
+								</span>
+							</div>
+							</div>
+						</div>
+                        </form>
+					</div>
+						
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+				<div class="componentSubmitarea">
+				<div class="row">					
+					<div class="col-sm-12">
+						<p class="text-center">Share Your Widgets/Codes &amp; UI components to UX community</p>
+						<button class="Compbtn middleElement submitCom">Submit Components</button>
+					</div>
+				</div>
+				</div>
+
+				<div class="container">
+					<div class="row">
+
+						<div class="col-sm-9">
+							<div class="row">
+								<div class="searchResult">
+									<ol class="breadcrumb uiBreadcrumb">
+									<li><a href="dashboard.html">Component</a></li>
+									<li><a href="#">Search Result</a></li>			
+									<li class="active">Accordion</li></li>
+									</ol>
+									<div class="compTitle">
+										<h2>Accordion</h2>
+										<ul>
+											<li>Version <span>Update 10.1</span></li>
+											<li>Date <span>01 Jan 2017</span></li>
+											<li><a href="#">23 Comments</a></li>
+											<li class="pull-right"><a href="#"><i class="fa fa-download" aria-hidden="true"></i></a> 52 Downloads</li>
+										</ul>
+
+									</div>
+									<!-- Tab panes -->
+									<div class="card">
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Preview</a></li>
+                                        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Full Code</a></li>
+                                        <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">HTML</a></li>
+                                        <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Css</a></li>
+                                        <li role="presentation"><a href="#javascript" aria-controls="javascript" role="tab" data-toggle="tab">Javascript</a></li>
+                                        <li role="presentation"><a href="#jquery" aria-controls="jquery" role="tab" data-toggle="tab">Jquery</a></li>
+                                    </ul>
+
+                                  
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="home">
+
+    <div id="accordion" class="panel panel-default custm-panel">  
+        <div class="panel-heading" role="tab" id="headingTwo">
+       <h4 class="panel-title">
+     <a class="accordion-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">Collapsible Item #1
+     </a>
+     </h4>
+    </div>
+     <div  id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div  class="panel-body">
+     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+    </div>
+    </div>
+  </div>
+
+   <div  class="panel panel-default custm-panel">  
+        <div class="panel-heading" role="tab" id="headingThree">
+       <h4 class="panel-title">
+     <a class="accordion-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Collapsible Item #2
+     </a>
+     </h4>
+    </div>
+     <div  id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div  class="panel-body">
+     Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+    </div>
+    </div>
+  </div>                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="profile">
+
+    <pre>
+        <code  class="language-html" data-lang="html">
+        <h4>HTML Code:</h4>
+    <span class="nt"> <</span><span class="nt">div </span> <span class="na">class=</span><span class="s">"panel panel-default custm-panel"</span><span class="nt">> </span> 
+        <span class="nt"><</span><span class="nt">div </span><span class="na">class=</span><span class="s">"panel-heading"</span><span class="na"> role=</span><span class="s">"tab" </span><span class="na">id=</span><span class="s">"headingTwo"</span><span class="nt">></span>
+       <span class="nt"><</span><span class="nt">h4</span> <span class="na">class=</span><span class="s">"panel-title"</span><span class="nt">></span>
+     <span class="nt"><</span><span class="nt">a</span> <span class="na">class=</span><span class="s">"accordion-toggle collapsed"</span> <span class="na">role=</span><span class="s">"button"</span> <span class="na">data-toggle=</span><span class="s">"collapse"</span> <span class="na">data-parent=</span><span class="s">"#accordion"</span> <span class="na">class=</span><span class="s">"collapsed"</span> <span class="na">href=</span><span class="s">"#collapseTwo"</span> <span class="na">aria-expanded=</span><span class="s">"true"</span> <span class="na">aria-controls=</span><span class="s">"collapseTwo"</span><span class="nt">></span>Collapsible Item #1
+     <span class="nt"><</span><span class="nt">/</span><span class="nt">a></span>
+     <span class="nt"><</span><span class="nt">/</span><span class="nt">h4></span>
+    <span class="nt"><</span><span class="nt">/</span><span class="nt">div></span>
+    <span class="nt"> <</span><span class="nt">div </span> <span class="na">id=</span><span class="s">"collapseTwo"</span> <span class="na">class=</span><span class="s">"panel-collapse collapse"</span> <span class="na">role=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby=</span><span class="s">"headingTwo"</span><span class="nt">></span>
+     <span class="nt"> <</span><span class="nt">div </span> <span class="na">class=</span><span class="s">"panel-body"</span><span class="nt">></span>
+     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+    <span class="nt"><</span><span class="nt">/</span><span class="nt">div></span>
+    <span class="nt"><</span><span class="nt">/</span><span class="nt">div></span>
+  <span class="nt"><</span><span class="nt">/</span><span class="nt">div></span>
+
+  <span class="nt"> <</span><span class="nt">div </span> <span class="na">class=</span><span class="s">"panel panel-default custm-panel"</span><span class="nt">> </span> 
+        <span class="nt"><</span><span class="nt">div </span><span class="na">class=</span><span class="s">"panel-heading"</span><span class="na"> role=</span><span class="s">"tab" </span><span class="na">id=</span><span class="s">"headingThree"</span><span class="nt">></span>
+       <span class="nt"><</span><span class="nt">h4</span> <span class="na">class=</span><span class="s">"panel-title"</span><span class="nt">></span>
+     <span class="nt"><</span><span class="nt">a</span> <span class="na">class=</span><span class="s">"accordion-toggle collapsed"</span> <span class="na">role=</span><span class="s">"button"</span> <span class="na">data-toggle=</span><span class="s">"collapse"</span> <span class="na">data-parent=</span><span class="s">"#accordion"</span> <span class="na">class=</span><span class="s">"collapsed"</span> <span class="na">href=</span><span class="s">"#collapseThree"</span> <span class="na">aria-expanded=</span><span class="s">"true"</span> <span class="na">aria-controls=</span><span class="s">"collapseThree"</span><span class="nt">></span>Collapsible Item #2
+     <span class="nt"><</span><span class="nt">/</span><span class="nt">a></span>
+     <span class="nt"><</span><span class="nt">/</span><span class="nt">h4></span>
+    <span class="nt"><</span><span class="nt">/</span><span class="nt">div></span>
+    <span class="nt"> <</span><span class="nt">div </span> <span class="na">id=</span><span class="s">"collapseThree"</span> <span class="na">class=</span><span class="s">"panel-collapse collapse"</span> <span class="na">role=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby=</span><span class="s">"headingThree"</span><span class="nt">></span>
+     <span class="nt"> <</span><span class="nt">div </span> <span class="na">class=</span><span class="s">"panel-body"</span><span class="nt">></span>
+     Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+    <span class="nt"><</span><span class="nt">/</span><span class="nt">div></span>
+    <span class="nt"><</span><span class="nt">/</span><span class="nt">div></span>
+  <span class="nt"><</span><span class="nt">/</span><span class="nt">div></span>
+  </code>
+  </pre>
+                                        	
+  <pre>
+  <code  class="language-html" data-lang="html">
+  <h4>CSS Code:</h4>
+  <span class="nt">.panel-title{</span> <span class="s">font-size:14px; font-weight:bold;</span><span class="nt">}</span>
+<span class="nt">.panel-default{</span><span class="s">border-color:#dddcdb;</span><span class="nt">}</span>
+<span class="nt">.custm-panel .panel-heading h4 a{</span>
+  <span class="s">display:block; padding:8px 12px; text-decoration:none; background:#f5f5f5;</span>
+  <span class="nt">}</span>
+<span class="nt">.custm-panel .panel-heading h4 a.collapsed {</span><span class="s">background: #f5f5f5;</span><span class="nt">}</span>
+<span class="nt">.panel-default > .panel-heading{</span><span class="s">border-color:#dddcdb; border-bottom:0;</span><span class="nt">}</span> 
+<span class="nt">.custm-panel{</span> <span class="s"> background:#ffcc00;</span><span class="nt">}</span>
+<span class="nt">.accordion-toggle:after {</span>
+    <span class="s">font-family: 'FontAwesome';
+    content: "\f078";    
+    float: right;</span>
+<span class="nt">}</span>
+<span class="nt">.accordion-toggle.collapsed:after {</span>
+    <span class="s">font-family: 'FontAwesome';    
+    content: "\f054";
+    float: right;</span>    
+<span class="nt">}</span>
+  </code>
+</pre>
+
+                                        </div>
+
+
+                                        <div role="tabpanel" class="tab-pane" id="messages">
+
+                                        	<pre>
+        <code  class="language-html" data-lang="html">
+        <h4>HTML Code:</h4>
+    <span class="nt"> <</span><span class="nt">div </span> <span class="na">class=</span><span class="s">"panel panel-default custm-panel"</span><span class="nt">> </span> 
+        <span class="nt"><</span><span class="nt">div </span><span class="na">class=</span><span class="s">"panel-heading"</span><span class="na"> role=</span><span class="s">"tab" </span><span class="na">id=</span><span class="s">"headingTwo"</span><span class="nt">></span>
+       <span class="nt"><</span><span class="nt">h4</span> <span class="na">class=</span><span class="s">"panel-title"</span><span class="nt">></span>
+     <span class="nt"><</span><span class="nt">a</span> <span class="na">class=</span><span class="s">"accordion-toggle collapsed"</span> <span class="na">role=</span><span class="s">"button"</span> <span class="na">data-toggle=</span><span class="s">"collapse"</span> <span class="na">data-parent=</span><span class="s">"#accordion"</span> <span class="na">class=</span><span class="s">"collapsed"</span> <span class="na">href=</span><span class="s">"#collapseTwo"</span> <span class="na">aria-expanded=</span><span class="s">"true"</span> <span class="na">aria-controls=</span><span class="s">"collapseTwo"</span><span class="nt">></span>Collapsible Item #1
+     <span class="nt"><</span><span class="nt">/</span><span class="nt">a></span>
+     <span class="nt"><</span><span class="nt">/</span><span class="nt">h4></span>
+    <span class="nt"><</span><span class="nt">/</span><span class="nt">div></span>
+    <span class="nt"> <</span><span class="nt">div </span> <span class="na">id=</span><span class="s">"collapseTwo"</span> <span class="na">class=</span><span class="s">"panel-collapse collapse"</span> <span class="na">role=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby=</span><span class="s">"headingTwo"</span><span class="nt">></span>
+     <span class="nt"> <</span><span class="nt">div </span> <span class="na">class=</span><span class="s">"panel-body"</span><span class="nt">></span>
+     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+    <span class="nt"><</span><span class="nt">/</span><span class="nt">div></span>
+    <span class="nt"><</span><span class="nt">/</span><span class="nt">div></span>
+  <span class="nt"><</span><span class="nt">/</span><span class="nt">div></span>
+
+  <span class="nt"> <</span><span class="nt">div </span> <span class="na">class=</span><span class="s">"panel panel-default custm-panel"</span><span class="nt">> </span> 
+        <span class="nt"><</span><span class="nt">div </span><span class="na">class=</span><span class="s">"panel-heading"</span><span class="na"> role=</span><span class="s">"tab" </span><span class="na">id=</span><span class="s">"headingThree"</span><span class="nt">></span>
+       <span class="nt"><</span><span class="nt">h4</span> <span class="na">class=</span><span class="s">"panel-title"</span><span class="nt">></span>
+     <span class="nt"><</span><span class="nt">a</span> <span class="na">class=</span><span class="s">"accordion-toggle collapsed"</span> <span class="na">role=</span><span class="s">"button"</span> <span class="na">data-toggle=</span><span class="s">"collapse"</span> <span class="na">data-parent=</span><span class="s">"#accordion"</span> <span class="na">class=</span><span class="s">"collapsed"</span> <span class="na">href=</span><span class="s">"#collapseThree"</span> <span class="na">aria-expanded=</span><span class="s">"true"</span> <span class="na">aria-controls=</span><span class="s">"collapseThree"</span><span class="nt">></span>Collapsible Item #2
+     <span class="nt"><</span><span class="nt">/</span><span class="nt">a></span>
+     <span class="nt"><</span><span class="nt">/</span><span class="nt">h4></span>
+    <span class="nt"><</span><span class="nt">/</span><span class="nt">div></span>
+    <span class="nt"> <</span><span class="nt">div </span> <span class="na">id=</span><span class="s">"collapseThree"</span> <span class="na">class=</span><span class="s">"panel-collapse collapse"</span> <span class="na">role=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby=</span><span class="s">"headingThree"</span><span class="nt">></span>
+     <span class="nt"> <</span><span class="nt">div </span> <span class="na">class=</span><span class="s">"panel-body"</span><span class="nt">></span>
+     Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+    <span class="nt"><</span><span class="nt">/</span><span class="nt">div></span>
+    <span class="nt"><</span><span class="nt">/</span><span class="nt">div></span>
+  <span class="nt"><</span><span class="nt">/</span><span class="nt">div></span>
+  </code>
+  </pre>
+
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="settings">
+                                        	 <pre>
+  <code  class="language-html" data-lang="html">
+  <h4>CSS Code:</h4>
+  <span class="nt">.panel-title{</span> <span class="s">font-size:14px; font-weight:bold;</span><span class="nt">}</span>
+<span class="nt">.panel-default{</span><span class="s">border-color:#dddcdb;</span><span class="nt">}</span>
+<span class="nt">.custm-panel .panel-heading h4 a{</span>
+  <span class="s">display:block; padding:8px 12px; text-decoration:none; background:#f5f5f5;</span>
+  <span class="nt">}</span>
+<span class="nt">.custm-panel .panel-heading h4 a.collapsed {</span><span class="s">background: #f5f5f5;</span><span class="nt">}</span>
+<span class="nt">.panel-default > .panel-heading{</span><span class="s">border-color:#dddcdb; border-bottom:0;</span><span class="nt">}</span> 
+<span class="nt">.custm-panel{</span> <span class="s"> background:#ffcc00;</span><span class="nt">}</span>
+<span class="nt">.accordion-toggle:after {</span>
+    <span class="s">font-family: 'FontAwesome';
+    content: "\f078";    
+    float: right;</span>
+<span class="nt">}</span>
+<span class="nt">.accordion-toggle.collapsed:after {</span>
+    <span class="s">font-family: 'FontAwesome';    
+    content: "\f054";
+    float: right;</span>    
+<span class="nt">}</span>
+  </code>
+</pre>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="javascript">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it</div>
+                                        <div role="tabpanel" class="tab-pane" id="jquery">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a </div>
+                                    </div>
+
+                                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.</p>
+                                    <!--- Reference Block -->
+                                    <div class="referenceBlock">
+                                    	<h3>Reference</h3>
+                                    	<ul>
+                                    		<li><a href="#">Link01</a></li>
+                                    		<li><a href="#">Link02</a></li>
+                                    		<li><a href="#">Link03</a></li>
+                                    	</ul>
+                                    </div>
+                                    <!-- Comments Area -->
+                                    <div class="commentsBlock">
+                                    	<h3>Comments (23) <span class="pull-right"><a href="javascript:void(0);" id="commBtn">Add Comment</a></span></h3>
+                                      <div class="commentTextArea" id="commArea" style="display:none;">
+                                        <textarea></textarea>
+                                        <input type="button" class="btn pull-right" value="Post Comment">
+                                      </div>
+                                    	<ul class="userComm">
+                                    			<li>
+                                    				<h4><img src="images/user.jpg" alt=""/>Mr. XYZ<span>Date 01 Jan 2017</span><a href="javascript:void(0);" class="replylink"><i class="fa fa-reply pull-right" aria-hidden="true"></i></a></h4>
+                                    				<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.  Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.</p>
+                                            <div class="commentTextArea" style="display:none;">
+                                              <textarea></textarea>
+                                              <input type="button" class="btn pull-right" value="Post Comment">
+                                            </div>
+                                    			</li>
+                                    			<li>
+                                    				<ul>
+                                    					<li>
+                                    				<h4><img src="images/user.jpg" alt=""/>Mr. XYZ<span>Date 01 Jan 2017</span><a href="javascript:void(0);" class="replylink"><i class="fa fa-reply pull-right" aria-hidden="true"></i></a></h4>
+                                    				<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.  Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.</p>
+                                    			 <div class="commentTextArea" style="display:none;">
+                                              <textarea></textarea>
+                                              <input type="button" class="btn pull-right" value="Post Comment">
+                                            </div>
+                                          </li>
+                                    				</ul>	
+                                    			</li>
+                                    	</ul>
+                                    </div>
+								</div>
+
+							</div>
+							
+						</div>
+						
+						</div>
+						<div class="col-sm-3">
+              <div class="rightPanel">
+						   <a href="#"><i class="fa fa-history"></i> View ver. History</a>
+               <h3>Compatible Browsers</h3>
+               <ul class="browserList">
+                <li><i class="fa fa-internet-explorer" aria-hidden="true"></i></li>
+                <li><i class="fa fa-firefox" aria-hidden="true"></i></li>
+                <li><i class="fa fa-chrome" aria-hidden="true"></i></li>
+                <li><i class="fa fa-opera" aria-hidden="true"></i></li>
+                </ul>
+                <h3>Compatible Frameworks</h3>
+                <a href="#">Bootstrap</a>, <a href="#">Visual Composure</a>, <a href="#">Foundation UI</a>
+                <h3>Software</h3>
+                <a href="#">Wordpress</a>
+                <h3>Tags</h3>
+                <a href="#">Collapse verticle</a>, <a href="#">Slider</a>
+              </div>						
+					</div>
+					</div>
+				</div>
+		
+			</div>
+			</div>
+		
+        <a href="#" class="scrollToTop"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i>
+</a>
+		
+		<!-- footer -->
+	<footer class="footer">
+		<div class="container">
+		<div class="row">
+			<div class="pull-left">&copy;Copyrights 2017</div>
+			<div class="pull-right"><a href="#">Privacy Policy</a> | <a href="../index.html">DHL Home</a></div>
+		</div>	
+		</div>
+	</footer>
+	<!-- /footer -->
+	
+	<div class="searchBox">
+    <div class="container">
+      <!-- search box -->
+      <div class="row">
+        <button type="button" class="close popupCross" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="close-mod"></span></button>
+        <div class="searchBoxContainer">
+          <input type="text" class="" name="" placeholder="Search DHL Brand Central" id="search-input-panel" autocomplete="off">
+                    <input type="submit" class="submit-search btn btn-primary btn-code" value="Search">         
+        </div>
+        
+      </div>
+      <!-- /search box -->
+      
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>Top Searches</h3>
+          <ul class="noIcons">
+            <li><a href="#">DHL main colors</a></li>
+            <li><a href="#">How to use the logo</a></li>
+            <li><a href="#">Download fonts</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-sm-4">
+          <h3>Top Downloads</h3>
+          <ul>            
+            <li><a href="#"><i class="fa fa-download"></i> Color Guidelines (PDF)</a></li>
+            <li><a href="#"><i class="fa fa-download"></i> Typography Guidelines (PDF)</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-sm-4">
+          <h3>Top Questions</h3>
+          <p><a href="#">Where can I find the logo for my business?</a></p>
+          <p><a href="#">How can one of my vendors or agencies access the brand guidelines?</a></p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="close-mod">X</span></button>
+        <h2 class="modal-title" id="myModalLabel">SUBMIT</h2>
+      </div>
+      <div class="modal-body">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+    <br>
+    <form>
+        <div class="form-group">
+        <label for="type">Type</label>
+        <select class="form-control" id="type">
+          <option>Select</option>
+        </select>
+        </div>
+        <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Name">
+        </div>
+        <div class="form-group">
+        <label for="des">Description</label>
+        <textarea class="form-control" id="des" rows="3"></textarea>
+        </div>  
+        <div class="form-group">
+  
+        <label for="file">File(PDF,SVG etc)</label>
+        <div class="input-group">
+          <label class="input-group-btn">
+            <span class="btn btn-primary btn-gray">
+              Browse&hellip; <input type="file" id="file" style="display: none;" multiple>
+            </span>
+          </label>
+          <input type="text" class="form-control" readonly>
+        </div>
+    </div>
+      <div class="text-right">
+        <button type="button" class="btn btn-primary">SUBMIT</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>     
+      </div>
+        
+    </form>
+        
+
+  
+      </div>
+
+    </div>
+  </div>
+</div>  
+		
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>   
+		<script src="js/viewportchecker.js"></script>	
+		<script src="js/common.js"></script>    
+		<script>
+    $(document).ready(function(){
+  
+  //Check to see if the window is top if not then display button
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 100) {
+      $('.scrollToTop').fadeIn();
+    } else {
+      $('.scrollToTop').fadeOut();
+    }
+  });
+  
+  //Click event to scroll to top
+  $('.scrollToTop').click(function(){
+    $('html, body').animate({scrollTop : 0},800);
+    return false;
+  });
+  
+});
+			$(window).scroll(function () {
+				var scrollTop = $(window).scrollTop();
+				var height = $(window).height();
+				$('.banner1, .slogan').css({
+					'opacity': ((height - scrollTop) / height )
+				});
+			});
+				
+$('[data-toggle="btns"] .btn').on('click', function(){
+	var $this = $(this);
+  	$this.parent().find('.active').removeClass('active');
+    $this.addClass('active');
+});
+
+$('#commBtn').click(function(){
+      $('#commArea').toggle();
+    });
+   
+   $('.userComm li a.replylink ').click(function(){
+     // console.log($(this).parent().siblings('.commentTextArea'));
+      $(this).parent().siblings('.commentTextArea').toggle();
+    });
+
+		</script>
+    </body>
+</html>

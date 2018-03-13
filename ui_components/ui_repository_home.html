@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">                
+		<link rel="shortcut icon" href="images/favicon.gif" type="image/gif"/>
+		<title>DHL | Global | English</title>
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<link href="css/maincontroller.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+		<link href="css/dropdown.css" rel="stylesheet">
+    </head>
+    <body data-spy="scroll" data-target=".navbarSecondary" data-offset="20">
+        <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand logo" href="../index.html" title="DHL"><img src="images/logo.png" alt="DHL Logo" /></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav"> 
+			<li><a href="../dashboard.html">Dashboard</a></li>		  
+			<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >UX Forge<span class="caret"></span>
+              </a>
+               <ul class="dropdown-menu up-arrow singleRow">
+                <li><a href="javascript:void(0)" onclick="location.href = '../who_we_are.html'">Who We Are</a></li> 				
+				<li><a href="javascript:void(0)" onclick="location.href = '../why_ux_forge.html'">Why UX Forge</a></li>
+              </ul>            
+            </li>			
+			<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Brand<span class="caret"></span></a>
+              <ul class="dropdown-menu up-arrow singleRow">
+                <li><a href="#">Logo Guidelines</a></li> 				
+				<li><a href="#">Corporate Style Guide</a></li>
+				<li><a href="#">Typography</a></li>		
+				<li><a href="#">Brand Imagery</a></li>
+              </ul>
+            </li>
+			
+			<li class="dropdown">
+              <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">UX Artifacts <span class="caret"></span></a>
+              <ul class="dropdown-menu up-arrow singleRow">
+				<li><a href="javascript:void(0)" onclick="location.href = '../dhl_process.html';">DHL UX Process</a></li>
+				<li><a href="javascript:void(0)" onclick="location.href = '../design_principal.html';">Design Principle</a></li>			  
+                <li><a href="javascript:void(0)" onclick="location.href = '../ux_method.html';">UX Methods</a></li>
+                <li><a href="javascript:void(0)" onclick="location.href = '../mobile_ux.html';">Mobile UX Guidelines</a></li>
+              </ul>             
+            </li>			
+			<li class="dropdown active">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">UX Library <span class="caret"></span></a>
+              <ul class="dropdown-menu up-arrow singleRow">
+				<li><a href="javascript:void(0)">Components</a></li>
+				<li><a href="javascript:void(0)" onclick="location.href = 'icons.html';">Icons</a></li>			  
+                <li><a href="javascript:void(0)"  data-toggle="modal" data-target="#myModal">Submit Component</a></li>
+              </ul>
+            </li>			
+			<li class="dropdown" ><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">UX Connect <span class="caret"></span></a>
+			<ul class="dropdown-menu up-arrow singleRow">				
+				<li><a href="javascript:void(0)" onclick="location.href = '../forum.html';">Forum</a></li>		  
+                
+              </ul>
+			</li>				
+          </ul>
+          <div class="navbar-right">
+            <span class="fa fa-search searchIcon"></span>
+          </div>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+	
+	<!-- banner 
+	<div class="innerBanner banner1 uiBanner">
+		<div class="bannerTxt">
+			<p>Design for DHL</p>
+			<h1>UI Components</h1>
+		</div>
+	</div>-->
+	<!-- /banner -->
+	
+		<!---Search area-->
+			<div class="searchComponent">
+				<div class="container">		
+					<div class="row">
+					
+						<form>						
+						   <div class="col-md-8 middleElement">
+						<div class="contacts">               
+							<div class="form-group multiple-form-group input-group">
+								<div class="input-group-btn input-group-select">
+									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+										<span class="concept">All</span> <span class="caret"></span>
+									</button>
+										<ul class="dropdown-menu" role="menu">
+											<li><a href="#all">All</a></li>
+											<li><a href="#jquery">Jquery</a></li>
+											<li><a href="#angularJs">Angular Js</a></li>
+											<li><a href="#html5">Html5</a></li>
+											<li><a href="#css3">Css3</a></li>
+											<li><a href="#other">Others</a></li>											
+										</ul>
+									<input type="hidden" class="input-group-select-val" name="contacts['type'][]" value="phone">
+								</div>
+								<input type="text" name="contacts['value'][]" class="form-control inputxt">
+								<span class="input-group-btn">
+									<button type="button" class="btn btn-success fa fa-search searchBtn" onclick="location.href = 'search.html';"></button>
+								</span>
+							</div>
+							</div>
+						</div>
+					</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<ol class="breadcrumb uiBreadcrumb mar-top">
+					<li><a href="../index.html">Home</a></li>			
+					<li class="active">UI Component Dashboard</li>
+				</ol>
+				<div class="row">
+				<div class="componentSubmitarea">
+				<div class="row">					
+					<div class="col-sm-12">
+						<p class="text-center">Share Your Widgets/Codes &amp; UI components to UX community</p>
+						<button class="Compbtn middleElement" id="submitComp" data-toggle="modal" data-target="#myModal">Submit Components</button>
+					</div>
+				</div>
+				</div>
+
+
+
+				
+				
+				
+		<div class="row">
+			<div class="col-sm-12 headerContent">
+
+				<h1>Welcome to UI Library !</h1>
+				<p>Welcome to the DHL UI library documentation. Here you can learn what UI library includes, as well as how to use it on <a href="#">DHL application</a>. Start your next project with DHL UI Library</p>
+			</div>
+		</div>
+				<div class="componentImageArea">
+					<div class="col-sm-4">				
+						<div class="block">
+							<img src="images\responsive.jpg" class="resimg" alt=""/>						
+						</div>
+						<div class="textContainer">
+							<h2>Responsive</h2>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<a href="#">View Layouts</a>
+						</div>
+					</div>
+					<div class="col-sm-4">
+					<div class=" block yallowBg mobileMargin"><img src="images\mobile.png" alt="" ></div>
+					
+							<h2>Mobile</h2>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<a href="#">View Guidelines</a>
+					
+					</div>
+					<div class="col-sm-4">
+					<div class="block yallowBg"><img src="images\logo.png" alt=""></div>
+					<div class="textContainer">
+							<h2>DHL Brand Sync</h2>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<a href="#">DHL Brand Guidelines</a>
+						</div>
+					</div>
+				
+				</div>
+			</div>
+			</div>
+		
+        <div class="container">		
+           <div class="componentlistBlock">
+            	<div class="row">
+				<div class="col-sm-12">
+					<div class="row">
+					<h2>UX Library</h2>
+					<div class="clearfix"></div>
+					<div class="selectComponent">						
+					    <div class="select">
+					      <select id="compDash">
+					        <option value="compWraper">Components</option>
+						<option value="grid">Grids</option>
+						<option value="layout">Layouts</option>
+					      </select>
+					      <div class="select__arrow"></div>
+					    </div> 
+					<span class="pull-right"><ul class="tabBtn"><li><a href="javascript:void(0)" class="active">All(200)</a></li><li><a href="javascript:void(0);">Latest(10)</a></li></ul></span></div>
+					<div class="clearfix"></div>
+					<div class="item" id="compWraper" style="display:block">
+					<div class="row">
+					<div class="col-sm-3">
+						<div class="componentList box">
+						<img src="images\comp01.jpg" alt="">
+							<div class="overbox" onclick="location.href = 'component_accordion.html';">							 
+							<div class="title"> Component 1 </div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+					<div class="componentList box">
+						<img src="images\comp02.jpg" alt="">
+							 <div class="overbox">							 
+							<div class="title"> Component 2 </div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+					<div class="componentList box">
+						<img src="images\comp03.jpg" alt="">
+							 <div class="overbox">							 
+							<div class="title"> Component 3 </div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+					<div class="componentList box">
+						<img src="images\comp01.jpg" alt="">
+							 <div class="overbox">							 
+							<div class="title"> Component 4 </div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="componentList box">
+						<img src="images\comp02.jpg" alt="">
+							 <div class="overbox">
+							 
+							<div class="title"> Component 5 </div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="componentList box">
+						<img src="images\comp03.jpg" alt="">
+							 <div class="overbox">
+							 
+							<div class="title"> Component 6 </div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="componentList box">
+						<img src="images\comp01.jpg" alt="">
+							 <div class="overbox">
+							 
+							<div class="title"> Component 7 </div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="componentList box">
+						<img src="images\comp02.jpg" alt="">
+							 <div class="overbox">							 
+							<div class="title"> Component 8 </div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+					
+					<div id="showhide" style="display:none;" >
+					<div class="col-sm-3">
+						<div class="componentList box">
+						<img src="images\comp03.jpg" alt="">
+							 <div class="overbox">							 
+							<div class="title"> Component 9 </div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+
+					<div class="col-sm-3">
+						<div class="componentList box">
+						<img src="images\comp01.jpg" alt="">
+							 <div class="overbox">							 
+							<div class="title"> Component 10 </div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+
+					<div class="col-sm-3">
+						<div class="componentList box">
+						<img src="images\comp02.jpg" alt="">
+							 <div class="overbox">							 
+							<div class="title"> Component 11</div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="componentList box">
+						<img src="images\comp03.jpg" alt="">
+							 <div class="overbox">							 
+							<div class="title"> Component 12 </div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+						</div>
+						<div class="col-sm-12 showAllText">
+						<a href="javascript:void(0)" id="Slink" class="pull-right">Show More...</a>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				</div>
+				<div class="row item" id="grid" style="display:none">
+				<div class="col-sm-3">
+						<div class="componentList box">
+						<img src="images\grid_thumb.jpg" alt="">
+							 <div class="overbox">							 
+							<div class="title"> Grid Options 1 </div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+					<div class="componentList box">
+						<img src="images\grid_thumb.jpg" alt="">
+							 <div class="overbox">
+							 
+							<div class="title"> Grid Options 2 </div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+					<div class="componentList box">
+						<img src="images\grid_thumb.jpg" alt="">
+							 <div class="overbox">
+							 
+							<div class="title"> Grid Options 3 </div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+					<div class="componentList box">
+						<img src="images\grid_thumb.jpg" alt="">
+							 <div class="overbox">
+							 
+							<div class="title"> Grid Options 4 </div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+					<div class="componentList box">
+						<img src="images\grid_thumb.jpg" alt="">
+							 <div class="overbox">
+							 
+							<div class="title"> Grid Options 5 </div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+					<div class="componentList box">
+						<img src="images\grid_thumb.jpg" alt="">
+							 <div class="overbox">
+							 
+							<div class="title"> Grid Options 6 </div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+					<div class="componentList box">
+						<img src="images\grid_thumb.jpg" alt="">
+							 <div class="overbox">
+							 
+							<div class="title"> Grid Options 7 </div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+					<div class="componentList box">
+						<img src="images\grid_thumb.jpg" alt="">
+							 <div class="overbox">
+							 
+							<div class="title"> Grid Options 8 </div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+					<div class="componentList box">
+						<img src="images\grid_thumb.jpg" alt="">
+							 <div class="overbox">
+							 
+							<div class="title"> Grid Options 9 </div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="row item" id="layout" style="display:none">
+				<div class="col-sm-3">
+						<div class="componentList box">
+						<img src="images\layout_thumb.jpg" alt="">
+							 <div class="overbox">
+							 
+							<div class="title"> Layout 1 </div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+					<div class="componentList box">
+						<img src="images\layout_thumb.jpg" alt="">
+							 <div class="overbox">
+							 
+							<div class="title"> Layout 2 </div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+					<div class="componentList box">
+						<img src="images\layout_thumb.jpg" alt="">
+							 <div class="overbox">
+							 
+							<div class="title"> Layout 3 </div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+					<div class="componentList box">
+						<img src="images\layout_thumb.jpg" alt="">
+							 <div class="overbox">
+							 
+							<div class="title"> Layout 4 </div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+					<div class="componentList box">
+						<img src="images\layout_thumb.jpg" alt="">
+							 <div class="overbox">
+							 
+							<div class="title"> Layout 5 </div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+					<div class="componentList box">
+						<img src="images\layout_thumb.jpg" alt="">
+							 <div class="overbox">
+							 
+							<div class="title"> Layout 6 </div>
+							<div class="tagline"> Ver. 10.1 01 Jan 2017 </div>
+							<div class="para overtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+							
+						 </div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+               </div> 
+           </div>
+		   
+        </div>
+		
+		<!-- footer -->
+	<footer class="footer">
+		<div class="container">
+		<div class="row">
+			<div class="pull-left">&copy;Copyrights 2017</div>
+			<div class="pull-right"><a href="#">Privacy Policy</a> | <a href="../index.html">DHL Home</a></div>
+		</div>	
+		</div>
+	</footer>
+	<!-- /footer -->
+	
+	<!-- search popup box -->
+	<div class="searchBox">
+		<div class="container">
+			<!-- search box -->
+			<div class="row">
+				<button type="button" class="close popupCross" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="close-mod"></span></button>
+				<div class="searchBoxContainer">
+					<input type="text" class="" name="" placeholder="Search DHL Brand Central" id="search-input-panel" autocomplete="off">
+                    <input type="submit" class="submit-search btn btn-primary btn-code" value="Search">					
+				</div>
+				
+			</div>
+			<!-- /search box -->
+			
+			<div class="row">
+				<div class="col-sm-4">
+					<h3>Top Searches</h3>
+					<ul class="noIcons">
+						<li><a href="#">DHL main colors</a></li>
+						<li><a href="#">How to use the logo</a></li>
+						<li><a href="#">Download fonts</a></li>
+					</ul>
+				</div>
+				
+				<div class="col-sm-4">
+					<h3>Top Downloads</h3>
+					<ul>						
+						<li><a href="#"><i class="fa fa-download"></i> Color Guidelines (PDF)</a></li>
+						<li><a href="#"><i class="fa fa-download"></i> Typography Guidelines (PDF)</a></li>
+					</ul>
+				</div>
+				
+				<div class="col-sm-4">
+					<h3>Top Questions</h3>
+					<p><a href="#">Where can I find the logo for my business?</a></p>
+					<p><a href="#">How can one of my vendors or agencies access the brand guidelines?</a></p>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<!-- /search popup box -->
+		
+		
+		
+		
+					<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="close-mod"></span></button>
+        <h2 class="modal-title" id="myModalLabel">SUBMIT</h2>
+      </div>
+      <div class="modal-body">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+		<br>
+		<form>
+			  <div class="form-group">
+				<label for="type">Type</label>
+				<select class="form-control ui-select" id="type" name="drop1" >
+					<option>Select</option>
+					<option value="1">structure 1</option>
+					<option value="2">structure 2</option>
+					<option value="3">structure 3</option>
+					<option value="4">structure 4</option>
+				</select>
+			  </div>
+			  <div class="form-group">
+				<label for="name">Name</label>
+				<input type="text" class="form-control" id="name" placeholder="Name">
+			  </div>
+			  <div class="form-group">
+				<label for="des">Description</label>
+				<textarea class="form-control" id="des" rows="3"></textarea>
+			  </div>	
+			  <div class="form-group">
+  
+				<label for="file">File(PDF,SVG etc)</label>
+
+        
+
+
+        
+
+				<div class="input-group">
+					<label class="input-group-btn">
+						<span class="btn btn-primary btn-gray">
+							Browse&hellip; <input type="file" id="file" style="display: none;" multiple>
+						</span>
+					</label>
+					<input type="text" class="form-control" readonly>
+				</div>
+
+        
+  
+
+		</div>
+			<div class="text-right">
+				<button type="button" class="btn btn-primary">SUBMIT</button>
+				<button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>			
+			</div>
+			  
+		</form>
+        
+
+		</form>
+      </div>
+
+    </div>
+  </div>
+</div>	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>   
+		<script src="js/viewportchecker.js"></script>	
+		<script src="js/common.js"></script>    
+		<!--<script src="js/jquery-ui.min.js"></script>
+		<script src="js/select-widget-min.js"></script>  -->  
+		<script>
+			
+			/*$('#myModal').on('shown.bs.modal', function () {
+				$(".ui-select").selectWidget({
+					change       : function (changes) {
+						return changes;
+					},
+					effect       : "slide",
+					keyControl   : true,
+					speed        : 200,
+					scrollHeight : 250
+				});
+			});*/
+			
+
+			
+		</script>
+		
+		
+		<script>
+			$(window).scroll(function () {
+				var scrollTop = $(window).scrollTop();
+				var height = $(window).height();
+				$('.banner1, .slogan').css({
+					'opacity': ((height - scrollTop) / height )
+				});
+			});
+	$(function() {
+        $('#compDash').change(function(){
+            $('.item').hide();
+            $('#' + $(this).val()).show();
+        });
+    });
+(function ($) {
+	$('.tabBtn li a').click(function(){
+		$('.tabBtn li a').removeClass('active');
+		$(this).addClass('active');
+	});
+	$('#Slink').click(function(){
+
+		$('#showhide').slideToggle(200);
+		 $(this).html(($('#Slink').text() == 'Show More...') ? 'Show Less...' : 'Show More...');
+
+
+	});
+    $(function () {
+
+        var addFormGroup = function (event) {
+            event.preventDefault();
+
+            var $formGroup = $(this).closest('.form-group');
+            var $multipleFormGroup = $formGroup.closest('.multiple-form-group');
+            var $formGroupClone = $formGroup.clone();
+
+            $(this)
+                .toggleClass('btn-success btn-add btn-danger btn-remove')
+                .html('–');
+
+            $formGroupClone.find('input').val('');
+            $formGroupClone.find('.concept').text('Phone');
+            $formGroupClone.insertAfter($formGroup);
+
+            var $lastFormGroupLast = $multipleFormGroup.find('.form-group:last');
+            if ($multipleFormGroup.data('max') <= countFormGroup($multipleFormGroup)) {
+                $lastFormGroupLast.find('.btn-add').attr('disabled', true);
+            }
+        };
+
+        var removeFormGroup = function (event) {
+            event.preventDefault();
+
+            var $formGroup = $(this).closest('.form-group');
+            var $multipleFormGroup = $formGroup.closest('.multiple-form-group');
+
+            var $lastFormGroupLast = $multipleFormGroup.find('.form-group:last');
+            if ($multipleFormGroup.data('max') >= countFormGroup($multipleFormGroup)) {
+                $lastFormGroupLast.find('.btn-add').attr('disabled', false);
+            }
+
+            $formGroup.remove();
+        };
+
+        var selectFormGroup = function (event) {
+            event.preventDefault();
+
+            var $selectGroup = $(this).closest('.input-group-select');
+            var param = $(this).attr("href").replace("#","");
+            var concept = $(this).text();
+
+            $selectGroup.find('.concept').text(concept);
+            $selectGroup.find('.input-group-select-val').val(param);
+
+        }
+
+        var countFormGroup = function ($form) {
+            return $form.find('.form-group').length;
+        };
+
+        $(document).on('click', '.btn-add', addFormGroup);
+        $(document).on('click', '.btn-remove', removeFormGroup);
+        $(document).on('click', '.dropdown-menu a', selectFormGroup);
+
+    });
+})(jQuery);			
+		</script>
+    </body>
+</html>

@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>  
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">                
+	<link rel="shortcut icon" href="images/favicon.gif" type="image/gif"/>
+	<title>DHL | Global | English</title>
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/maincontroller.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+	<style>
+		
+	</style>
+</head>
+<body data-spy="scroll" data-target=".navbarSecondary" data-offset="20">
+	<!-- Fixed navbar -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand logo" href="../index.html" title="DHL"><img src="images/logo.png" alt="DHL Logo" /></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav"> 
+      <li><a href="../dashboard.html">Dashboard</a></li>      
+      <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >UX Forge<span class="caret"></span>
+              </a>
+               <ul class="dropdown-menu up-arrow singleRow">
+                <li><a href="javascript:void(0)" onclick="location.href = '../who_we_are.html'">Who We Are</a></li>        
+				<li><a href="javascript:void(0)" onclick="location.href = '../why_ux_forge.html'">Why UX Forge</a></li>
+              </ul>            
+            </li>     
+      <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Brand<span class="caret"></span></a>
+              <ul class="dropdown-menu up-arrow singleRow">
+                <li><a href="#">Logo Guidelines</a></li>        
+				<li><a href="#">Corporate Style Guide</a></li>
+				<li><a href="#">Typography</a></li>   
+				<li><a href="#">Brand Imagery</a></li>
+              </ul>
+            </li>
+      
+      <li class="dropdown">
+              <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">UX Artifacts <span class="caret"></span></a>
+              <ul class="dropdown-menu up-arrow singleRow">
+				<li><a href="javascript:void(0)" onclick="location.href = '../dhl_process.html';">DHL UX Process</a></li>
+				<li><a href="javascript:void(0)" onclick="location.href = '../design_principal.html';">Design Principle</a></li>        
+                <li><a href="javascript:void(0)" onclick="location.href = '../ux_method.html';">UX Methods</a></li>
+                <li><a href="javascript:void(0)" onclick="location.href = '../mobile_ux.html';">Mobile UX Guidelines</a></li>
+              </ul>             
+            </li>     
+      <li class="dropdown active">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">UX Library <span class="caret"></span></a>
+              <ul class="dropdown-menu up-arrow singleRow">
+                <li><a href="javascript:void(0)" onclick="location.href = 'ui_repository_home.html';">Components</a></li>
+                <li><a href="javascript:void(0)" onclick="location.href = 'icons.html';">Icons</a></li>       
+                <li><a href="javascript:void(0)" onclick="location.href = 'ui_repository_home.html?mn=submitComp&ct=submitComp';">Submit Component</a></li>
+              </ul>
+            </li>     
+      <li class="dropdown" ><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">UX Connect <span class="caret"></span></a>
+      <ul class="dropdown-menu up-arrow singleRow">       
+        <li><a href="javascript:void(0)" onclick="location.href = '../forum.html';">Forum</a></li>        
+                
+              </ul>
+      </li>       
+          </ul>
+          <div class="navbar-right">
+            <span class="fa fa-search searchIcon"></span>
+          </div>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+	
+	
+	<!---Search area-->
+	<div class="searchComponent">
+		<div class="container">	
+        <form>		
+			<div class="row">									
+					<div class="col-md-8 middleElement">
+						<div class="contacts">               
+							<div class="form-group multiple-form-group input-group">
+								<div class="input-group-btn input-group-select">
+									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+										<span class="concept">All</span> <span class="caret"></span>
+									</button>
+									<ul class="dropdown-menu" role="menu">
+										<li><a href="#all">All</a></li>
+										<li><a href="#jquery">Jquery</a></li>
+										<li><a href="#angularJs">Angular Js</a></li>
+										<li><a href="#html5">Html5</a></li>
+										<li><a href="#css3">Css3</a></li>
+										<li><a href="#other">Others</a></li>											
+									</ul>
+									<input type="hidden" class="input-group-select-val" name="contacts['type'][]" value="phone">
+								</div>
+								<input type="text" name="contacts['value'][]" class="form-control inputxt">
+								<span class="input-group-btn">
+									<button type="button" class="btn btn-success fa fa-search searchBtn"  onclick="location.href = 'search.html'"></button>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="componentSubmitarea">
+			<div class="row">					
+				<div class="col-sm-12">
+					<p class="text-center">Share Your Widgets/Codes &amp; UI components to UX community</p>
+					<button class="Compbtn middleElement">Submit New Components</button>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- main content -->
+		<div class="container boxContainer">
+			<div class="row">
+				<div class="row affix-row affixStyle">
+					<div class="col-xs-3">										
+						<div class="selectBoxes forumLeftSide">                        
+							<ul class="parent-list">
+								<li><div class="checkbox"><label><input type="checkbox" name="select_all" value="All"> All</label></div></li>
+								<li><div class="checkbox"><label><input type="checkbox" name="grid" value="Grid (0)"> Grid (0)</label></div></li>
+								<li><div class="checkbox"><label><input type="checkbox" name="layout" value="Layout (0)"> Layout (01)</label></div></li>
+								<li><div class="checkbox"><label><input type="checkbox" name="Components" data-parent="parent" value="Components"> Components (10)</label></div>
+									<ul class="sub-list">
+										<li><div class="checkbox"><label><input type="checkbox" name="Components" value="Accordion (08)"> Accordion (08)</label></div></li>
+										<li><div class="checkbox"><label><input type="checkbox" name="Components" value="Carousel (01)"> Carousel (01)</label></div></li>
+										<li><div class="checkbox"><label><input type="checkbox" name="Components" value="DropDowns (01)"> Dropdowns (01)</label></div></li>
+										<li><div class="checkbox"><label><input type="checkbox" name="Components" value="Navigation (01)"> Navigation (01)</label></div></li>
+										<li><div class="checkbox"><label><input type="checkbox" name="Components" value="Tool tips (01)"> Tool tips (01)</label></div></li>
+									</ul>
+								</li>
+								<li><div class="checkbox"><label><input type="checkbox" name="Technology" data-parent="parent" value="Technology"> Technology</label></div>
+									<ul class="sub-list">
+										<li><div class="checkbox"><label><input type="checkbox" name="Technology" value="Html"> Html</label></div></li>
+										<li><div class="checkbox"><label><input type="checkbox" name="Technology" value="Css"> Css</label></div></li>
+										<li><div class="checkbox"><label><input type="checkbox" name="Technology" value="Javascript"> Javascript</label></div></li>
+										<li><div class="checkbox"><label><input type="checkbox" name="Technology" value="JQuery"> JQuery</label></div></li>
+									</ul>
+								</li>
+								<li><div class="checkbox"><label><input type="checkbox" name="Framework" data-parent="parent" value="Framework"> Layout (01)</label></div>
+									<ul class="sub-list">
+										<li><div class="checkbox"><label><input type="checkbox" name="Framework" value="Bootstrap"> Bootstrap</label></div></li>
+										<li><div class="checkbox"><label><input type="checkbox" name="Framework" value="Foundation UI "> Foundation UI</label></div></li>
+										<li><div class="checkbox"><label><input type="checkbox" name="Framework" value="Drupal"> Drupal</label></div></li>
+										<li><div class="checkbox"><label><input type="checkbox" name="Framework" value="Visual Composer"> Visual Composer</label></div></li>
+									</ul>
+								</li>
+							</ul>
+						
+							
+							</div>	  
+						</div>
+
+						<div class="col-xs-9">
+											<ol class="breadcrumb uiBreadcrumb notmartop">
+					<li><a href="dashboard.html">Components</a></li>			
+					<li class="active">Search Result</li>
+				</ol>	
+							
+							<div class="row">
+								<div class="well well-sm">
+									<div class="col-xs-12 col-sm-5">
+										<strong class="srchResult">Search Result (14)</strong>
+
+
+									</div>
+									<div class="col-xs-12 col-sm-2">
+										<label class="pull-left viewby">View By</label>
+									</div>
+									<div class="col-xs-12 col-sm-3">
+										<select name="" class="form-control" >
+											<option value="Component">Latest</option>
+											<option value="Component">component</option>
+											<option value="Component">Composer</option>
+										</select>
+										
+
+
+									</div>
+
+									<div class="col-xs-12 col-sm-2"><label class="pull-left gridBtn">
+										<a href="#" id="grid"><span class="fa fa-th listBtns"></span></a>
+										<a href="#" id="list"><span class="fa fa-th-list listBtns">
+										</span></a>
+									</div>
+
+								</div>
+
+
+							</div>
+
+							<div id="products" class="list-group">
+							
+								<div class="row">
+									<div class="item col-xs-4 col-lg-4">
+										<div class="thumbnail">
+											<img class="group list-group-image img-responsive" src="images/comp02.jpg" width="100" height="100" alt="" />
+											<div class="result">
+												<h4>Uicontrol</h4>
+												<p><span class="sub-head-txt">Accordion | Date 01 Jan 2017</span></p>
+												Lorem ipsum dolor sit amet, consectetur  <span class="spnCls"> adipisicing elit</span>. Error, eum! Suscipit aliquid similique, vitae reiciendis ipsa error deserunt <span class="spnCls"> nam eligendi cupiditate quam </span>repellat obcaecati fugiat soluta.
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="item  col-xs-4 col-lg-4">
+										<div class="thumbnail">
+											<img class="group list-group-image img-responsive" src="images/comp03.jpg" width="100" height="100" alt="" />
+											<div class="result">
+												<h4>Uicontrol</h4>
+												<p><span class="sub-head-txt">List | Date 01 Jan 2017</span></p>
+												Lorem ipsum dolor sit amet, consectetur  <span class="spnCls"> adipisicing elit</span>. Error, eum! Suscipit aliquid similique, vitae reiciendis ipsa error deserunt <span class="spnCls"> nam eligendi cupiditate quam </span>repellat obcaecati fugiat soluta.
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									
+									<div class="item  col-xs-4 col-lg-4">
+										<div class="thumbnail">
+											<img class="group list-group-image img-responsive" src="images/comp01.jpg" width="100" height="100" alt="" />
+											<div class="result">
+												<h4>Uicontrol</h4>
+												<p><span class="sub-head-txt">Dropdown | Date 01 Jan 2017</span></p>
+												Lorem ipsum dolor sit amet, consectetur  <span class="spnCls"> adipisicing elit</span>. Error, eum! Suscipit aliquid similique, vitae reiciendis ipsa error deserunt <span class="spnCls"> nam eligendi cupiditate quam </span>repellat obcaecati fugiat soluta.
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+														
+								</div>
+								<div class="row">
+									<div class="item col-xs-4 col-lg-4">
+										<div class="thumbnail">
+											<img class="group list-group-image img-responsive" src="images/comp02.jpg" width="100" height="100" alt="" />
+											<div class="result">
+												<h4>Uicontrol</h4>
+												<p><span class="sub-head-txt">Accordion | Date 01 Jan 2017</span></p>
+												Lorem ipsum dolor sit amet, consectetur  <span class="spnCls"> adipisicing elit</span>. Error, eum! Suscipit aliquid similique, vitae reiciendis ipsa error deserunt <span class="spnCls"> nam eligendi cupiditate quam </span>repellat obcaecati fugiat soluta.
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="item  col-xs-4 col-lg-4">
+										<div class="thumbnail">
+											<img class="group list-group-image img-responsive" src="images/comp03.jpg" width="100" height="100" alt="" />
+											<div class="result">
+												<h4>Uicontrol</h4>
+												<p><span class="sub-head-txt">List | Date 01 Jan 2017</span></p>
+												Lorem ipsum dolor sit amet, consectetur  <span class="spnCls"> adipisicing elit</span>. Error, eum! Suscipit aliquid similique, vitae reiciendis ipsa error deserunt <span class="spnCls"> nam eligendi cupiditate quam </span>repellat obcaecati fugiat soluta.
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									
+									<div class="item  col-xs-4 col-lg-4">
+										<div class="thumbnail">
+											<img class="group list-group-image img-responsive" src="images/comp01.jpg" width="100" height="100" alt="" />
+											<div class="result">
+												<h4>Uicontrol</h4>
+												<p><span class="sub-head-txt">Dropdown | Date 01 Jan 2017</span></p>
+												Lorem ipsum dolor sit amet, consectetur  <span class="spnCls"> adipisicing elit</span>. Error, eum! Suscipit aliquid similique, vitae reiciendis ipsa error deserunt <span class="spnCls"> nam eligendi cupiditate quam </span>repellat obcaecati fugiat soluta.
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+														
+								</div>
+								<div class="row">
+									<div class="item col-xs-4 col-lg-4">
+										<div class="thumbnail">
+											<img class="group list-group-image img-responsive" src="images/comp02.jpg" width="100" height="100" alt="" />
+											<div class="result">
+												<h4>Uicontrol</h4>
+												<p><span class="sub-head-txt">Accordion | Date 01 Jan 2017</span></p>
+												Lorem ipsum dolor sit amet, consectetur  <span class="spnCls"> adipisicing elit</span>. Error, eum! Suscipit aliquid similique, vitae reiciendis ipsa error deserunt <span class="spnCls"> nam eligendi cupiditate quam </span>repellat obcaecati fugiat soluta.
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="item  col-xs-4 col-lg-4">
+										<div class="thumbnail">
+											<img class="group list-group-image img-responsive" src="images/comp03.jpg" width="100" height="100" alt="" />
+											<div class="result">
+												<h4>Uicontrol</h4>
+												<p><span class="sub-head-txt">Accordion | Date 01 Jan 2017</span></p>
+												Lorem ipsum dolor sit amet, consectetur  <span class="spnCls"> adipisicing elit</span>. Error, eum! Suscipit aliquid similique, vitae reiciendis ipsa error deserunt <span class="spnCls"> nam eligendi cupiditate quam </span>repellat obcaecati fugiat soluta.
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									
+									<div class="item  col-xs-4 col-lg-4">
+										<div class="thumbnail">
+											<img class="group list-group-image img-responsive" src="images/comp01.jpg" width="100" height="100" alt="" />
+											<div class="result">
+												<h4>Uicontrol</h4>
+												<p><span class="sub-head-txt">Dropdown | Date 01 Jan 2017</span></p>
+												Lorem ipsum dolor sit amet, consectetur  <span class="spnCls"> adipisicing elit</span>. Error, eum! Suscipit aliquid similique, vitae reiciendis ipsa error deserunt <span class="spnCls"> nam eligendi cupiditate quam </span>repellat obcaecati fugiat soluta.
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+														
+								</div>
+														
+														
+														
+														
+																				
+
+
+																					</div>
+	
+																					<div class="paginationCenter col-sm-12">
+
+																						<nav aria-label="Page navigation">
+																							<ul class="pagination searchPagination">  														
+																								<li class="active"><a href="#">1</a></li>
+																								<li><a href="#">2</a></li>
+																								<li><a href="#">3</a></li>
+																								<li><a href="#">4</a></li>
+																								<li><a href="#">5</a></li>  														
+																							</ul>
+																						</nav>
+
+																						
+																						</div> 
+																						<div class="clearfix"><a href="#" class="scrollToTop"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i> </a></div>
+																					</div>
+
+																				</div>      
+																			</div>
+
+
+																		</div>
+																	</div>
+																</div>
+
+																<!-- /main content -->
+																<!-- footer -->
+																
+																<footer class="footer">
+																	<div class="container">
+																		<div class="row">
+																			<div class="pull-left">&copy;Copyrights 2017</div>
+																			<div class="pull-right"><a href="#">Privacy Policy</a> | <a href="../index.html">DHL Home</a></div>
+																		</div>	
+																	</div>
+																</footer>
+																<!-- /footer -->
+																<!-- search popup box -->
+																<div class="searchBox">
+		<div class="container">
+			<!-- search box -->
+			<div class="row">
+				<button type="button" class="close popupCross" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="close-mod"></span></button>
+				<div class="searchBoxContainer">
+					<input type="text" class="" name="" placeholder="Search DHL Brand Central" id="search-input-panel" autocomplete="off">
+                    <input type="submit" class="submit-search btn btn-primary btn-code" value="Search">					
+				</div>
+				
+			</div>
+			<!-- /search box -->
+			
+			<div class="row">
+				<div class="col-sm-4">
+					<h3>Top Searches</h3>
+					<ul class="noIcons">
+						<li><a href="#">DHL main colors</a></li>
+						<li><a href="#">How to use the logo</a></li>
+						<li><a href="#">Download fonts</a></li>
+					</ul>
+				</div>
+				
+				<div class="col-sm-4">
+					<h3>Top Downloads</h3>
+					<ul>						
+						<li><a href="#"><i class="fa fa-download"></i> Color Guidelines (PDF)</a></li>
+						<li><a href="#"><i class="fa fa-download"></i> Typography Guidelines (PDF)</a></li>
+					</ul>
+				</div>
+				
+				<div class="col-sm-4">
+					<h3>Top Questions</h3>
+					<p><a href="#">Where can I find the logo for my business?</a></p>
+					<p><a href="#">How can one of my vendors or agencies access the brand guidelines?</a></p>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+																<!-- /search popup box -->
+
+																<!-- Placed at the end of the document so the pages load faster -->
+																<script src="js/jquery.min.js"></script>
+																<script src="js/bootstrap.min.js"></script>   
+																<script src="js/viewportchecker.js"></script>	
+																<script src="js/common.js"></script>    
+																<script>
+																	
+
+
+					$(document).ready(function() {
+  							// default loading of listview
+  							$('#products .item').addClass('list-group-item');
+
+
+  							$('#list').click(function(event){    	
+  								event.preventDefault();$('#products .item').removeClass('grid-group-item').addClass('list-group-item');
+  							});
+  							$('#grid').click(function(event){
+  								event.preventDefault();$('#products .item').removeClass('list-group-item');$('#products .item').addClass('grid-group-item');
+  							});
+  						});
+
+  					</script>
+  					<script type="text/javascript">
+  						$(document).ready(function(){
+						$(window).scroll(function(){
+							if ($(this).scrollTop() > 100) {
+							  $('.scrollToTop').fadeIn();
+							} else {
+							  $('.scrollToTop').fadeOut();
+							}
+						  });
+  
+  							
+        // scroll body to 0px on click
+       
+    });
+</script>
+<script type="text/JavaScript">
+	$(function () {
+		var selectedGroups  = new Array();
+
+		$(".selectBoxes input[type='checkbox']").click(function() {
+    	if($(this)[0].name=="select_all"){ //select All
+
+    		if(this.checked){
+    			selectedGroups=[];
+    			$("input[type=checkbox]").prop('checked', true);
+    				// storing the values in array
+    				$("input[type=checkbox]").each(function(i,v){
+
+    					selectedGroups.push($(v).attr('value'));
+    				});
+
+    		}else{ //unselect all
+    			$("input[type=checkbox]").prop('checked', false);         
+    			selectedGroups=[];
+    		}	
+    	}
+    	else{ //other than selectAll
+    		
+    		if($(this).attr('data-parent')=="parent"){ //group selection
+    			var name=$(this).attr('name');
+    			if(this.checked){
+    				$("input[type=checkbox][name='"+name+"']").prop('checked', true);
+    				$("input[type=checkbox][name='"+name+"']").each(function(i,v){
+    					selectedGroups.push($(v).attr('value'));
+    				});
+
+    			} else{
+    				$("input[type=checkbox][name='"+name+"']").prop('checked', false);
+    				$("input[type=checkbox][name='"+name+"']").each(function(i,v){
+    					var value=$(v).attr('value');    				
+    					selectedGroups=removeArrayElement(value,selectedGroups);
+    				});
+
+    			}
+    			
+    			
+    		}else{  // Single Element Selection
+    			var name=$(this).attr('name');
+    			if(this.checked){
+    				selectedGroups.push($(this).attr('value'));	
+    			}else{
+    				var value=	$(this).attr('value');
+    				selectedGroups=removeArrayElement(value,selectedGroups);
+    			}
+    		}	
+
+    	} 
+//alert(selectedGroups);   	 
+});
+
+	});
+
+	function removeArrayElement(value,ArrayToCheck){
+		var index = ArrayToCheck.indexOf(value);
+		if (index > -1) {
+			ArrayToCheck.splice(index, 1);
+		}
+		return ArrayToCheck;
+	}
+</script>
+</body>
+</html>

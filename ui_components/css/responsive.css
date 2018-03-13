@@ -1,0 +1,25 @@
+
+@media (max-width: 767px){
+.navbar-brand.logo{ margin-right: 0; width: 70%; margin-left: 20px;}
+.navbar-default .navbar-toggle{ border-color:#d2002e;}
+.navbar-brand.logo img{ margin-top: 10px;}
+.up-arrow::after{ border-bottom: none;}
+.footxt{ margin: 0 auto; width:70%;}
+.footxt ul li{ width:100%; text-align: center;}
+}
+
+@media (min-width: 767px){
+.dhl-docs-sidebar {padding-left: 20px; padding-top:40px;}
+input[type=search]{width:90%;}	
+.sidecol-left, .sidecol-right{height:50vh;}
+.dropdown-menu.up-arrow li{width:50%; float:left;}
+.navbar-nav > li > .dropdown-menu.up-arrow{min-width:350px;}
+.dropdown-menu > li > a{padding:7px 20px;}
+.dropdown-menu.singleRow li{width:auto; float:none;}
+.navbar-nav > li > .dropdown-menu.singleRow{min-width:240px;}
+.rs-body-content{min-height:600px;}
+}
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px
+  }
